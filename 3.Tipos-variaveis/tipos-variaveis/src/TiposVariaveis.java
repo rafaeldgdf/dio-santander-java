@@ -8,6 +8,10 @@ public class TiposVariaveis {
         float pi = 3.14F;
         double salario = 1275.33;
         String nome1 = "João Silva"; // Declara uma variável 'nome' do tipo String e atribui o valor "João Silva"
+        char sexo = 'M'; 
+        boolean doadorOrgao = false;
+
+        Date dataNascimento = new Date();
 
         //A partir do Java 10, é possível declarar variáveis sem especificar explicitamente 
         //o tipo de dado, utilizando a palavra-chave var: 
